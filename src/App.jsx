@@ -13,6 +13,7 @@ import PWABadge from './PWABadge.jsx'
 
 // custom
 import TopNav from './nav/TopNav.jsx'
+import Content from './content/Content.jsx'
 
 function Router(props) {
   const deployment = import.meta.env.REACT_APP_DEPLOYMENT
@@ -44,8 +45,9 @@ function App() {
     <>
       <Router>
         <ThemeProvider theme={darkTheme}>
-          <TopNav />
           <CssBaseline />
+          <TopNav />
+          <Content />
         </ThemeProvider>
       </Router>
       <PWABadge />
