@@ -37,29 +37,16 @@ function Home(props) {
             <Typography variant='h4' align="center">
                 Thought and Behavior Log
             </Typography>
-            <Typography variant='body1'>
-                Why it's important, what it gains etc.
+            <Typography>
+                This app is meant to help people track and find patterns in their thinking and actions. Whether you deal with depression, anxiety, intrusive thoughts, or unwanted behaviors (e.g. self-injury, substance use), it can be helpful to recognize patterns in when and where these thoughts and behaviors occur. Additionally, it can be helpful to recognize trends in the consequences of these thoughts and behaviors. Knowing these patterns can aid you in finding ways to change these thoughts and behaviors, such as by avoiding unhealthy situations that contribute to unhelpful thoughts, or finding a healthy replacement for an unwanted behavior to satisfy a need. Finally, in the case of thoughts, it can be helpful to find healthy thoughts to replace illogical or unhelpful negative thoughts. 
             </Typography>
-            <Typography variant='body1'>
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Lectus enim potenti potenti laoreet nibh malesuada. Eget rutrum auctor nostra hac finibus curae luctus. Elementum lacus maximus vivamus natoque orci purus consectetur. Praesent pharetra ante consequat natoque ligula velit. Nulla himenaeos leo aliquam congue ridiculus pulvinar venenatis imperdiet torquent. Hendrerit egestas mi sagittis metus sollicitudin elementum mi justo ad. Hendrerit eu maximus aliquet bibendum cras non. Dictum morbi quisque fames quisque; ante pellentesque. Ut bibendum fringilla interdum taciti euismod lacinia vivamus nec non.
+            <Typography>
+                This app can be used by anyone who is interested in understanding the relationship between their thoughts, feelings, behaviors, and bodily sensations. The app is designed to be used standalone, however, for best effect, it should be used under a licensed therapist’s direction as part of a psychotherapy regimen, or as a supplement to a reputable self-help program (for example, Dr. Tom likes the book Mind Over Mood by Drs. Dennis Greenberger and Christine Padesky for help with emotions such as sadness, anxiety, and anger). However you use it, though, we hope you find it helpful!
             </Typography>
-            <Typography variant='body1'>
-            Mollis ridiculus justo commodo leo inceptos eros, sociosqu nibh taciti? Malesuada varius semper scelerisque dis suspendisse. Blandit in nunc curabitur at consectetur fermentum felis. Scelerisque eu curae vehicula, nisi cras ante. Integer per egestas cubilia pulvinar vehicula risus augue. Tincidunt dignissim cursus penatibus auctor a. Sapien platea dui auctor molestie nec sollicitudin in donec? Nulla condimentum phasellus suscipit imperdiet ipsum diam augue tincidunt.
+            <Typography>
+                Developed by Brandon Swenson and Dr. Tom Bivona
             </Typography>
-            <Typography variant='body1'>
-            Non odio id ipsum proin ridiculus consequat mi nibh maximus. Curae fringilla pellentesque quisque non, metus purus scelerisque. Faucibus odio platea phasellus posuere vivamus himenaeos diam. Aptent penatibus non lorem quis egestas molestie tellus. Curabitur ridiculus cubilia volutpat ligula auctor tempor justo. Euismod litora dis himenaeos; maecenas interdum finibus non. Tristique ex platea erat varius, molestie conubia. Semper semper fames dictum, scelerisque nulla habitasse duis finibus.
-            </Typography>
-            <Typography variant='h5' align="center">
-                Other Resources
-            </Typography>
-            <ul>
-                <li>
-                    Link 1
-                </li>
-                <li>
-                    Link 2
-                </li>
-            </ul>
+
         </Stack>
     )
 }
