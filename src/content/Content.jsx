@@ -10,6 +10,7 @@ import { Route, Routes } from 'react-router'
 
 // custom
 import Home from './Home'
+import LogThought from './LogThought'
 
 function Content(props) {
     return (
@@ -18,6 +19,10 @@ function Content(props) {
                 <Route
                     path="/"
                     element={<Home />}
+                />
+                <Route
+                    path="/log-thought"
+                    element={<LogThought />}
                 />
             </Routes>
         </Suspense>

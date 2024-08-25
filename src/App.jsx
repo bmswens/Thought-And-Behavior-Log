@@ -8,6 +8,10 @@ import { BrowserRouter, HashRouter } from "react-router-dom"
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 
+// datetime stuff
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
+
 // bootstrap
 import PWABadge from './PWABadge.jsx'
 
@@ -43,13 +47,15 @@ function App() {
 
   return (
     <>
-      <Router>
-        <ThemeProvider theme={darkTheme}>
-          <CssBaseline />
-          <TopNav />
-          <Content />
-        </ThemeProvider>
-      </Router>
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
+        <Router>
+          <ThemeProvider theme={darkTheme}>
+            <CssBaseline />
+            <TopNav />
+            <Content />
+          </ThemeProvider>
+        </Router>
+      </LocalizationProvider>
       <PWABadge />
     </>
   )
