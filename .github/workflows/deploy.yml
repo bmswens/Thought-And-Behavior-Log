@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  REACT_APP_DEPLOYMENT: github
+  VITE_APP_DEPLOYMENT: github
 
 jobs:
   # Single deploy job since we're just deploying

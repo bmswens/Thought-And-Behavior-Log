@@ -20,7 +20,7 @@ import TopNav from './nav/TopNav.jsx'
 import Content from './content/Content.jsx'
 
 function Router(props) {
-  const deployment = import.meta.env.REACT_APP_DEPLOYMENT
+  const deployment = import.meta.env.VITE_APP_DEPLOYMENT
   /* istanbul ignore if: deployment config */
   if (deployment === "github") {
     return (
