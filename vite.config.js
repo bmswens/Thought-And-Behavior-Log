@@ -39,4 +39,5 @@ export default defineConfig({
       setupFiles: './tests/setup.js',
     }
   })],
+  base: "/Thought-And-Behavior-Log/"
 })
