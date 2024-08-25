@@ -270,7 +270,7 @@ function LogThought(props) {
 
     async function submit() {
         await db.thoughts.add(thought)
-        window.location.replace("/")
+        window.location.replace(import.meta.env.BASE_URL)
     }
 
     const steps = [
